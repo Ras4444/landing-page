@@ -40,6 +40,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
+    gap: 50px;
 }
 .lower-main {
     font-size: 48px;
@@ -50,6 +51,8 @@ img {
 .lower-secondary {
     font-size:18px;
     color:#E5E7EB;
+    display: flex;
+    flex-grow: 3;
 }
 .lower-button {
     background-color: #3882F6;
@@ -66,12 +69,12 @@ img {
     flex-direction: column;
     justify-content:space-between;
     align-items: flex-start;
+    height: 300px;
 }
 .lower-right {
-    width: 400px;
-}
-.header-image {
-    width: 200px;
+    align-self: center;
+    height: 300px;
+    width:800px;
 }
 .logo {
     font-size: 24px;
